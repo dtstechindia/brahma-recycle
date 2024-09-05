@@ -90,3 +90,24 @@ function startAutoSlide() {
     }
     // autoSlideInterval = setInterval(autoSlide, 3000); // Auto slide every 3 seconds
 }
+
+
+
+
+
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     var toggler = document.querySelector('.navbar-toggler');
+//     var collapse = document.querySelector('#navbarSupportedContent');
+  
+//     toggler.addEventListener('click', function() {
+//       // Toggle menu visibility
+//       collapse.classList.toggle('show');
+      
+//       // Toggle active class to change icon
+//       toggler.classList.toggle('active');
+//     });
+//   });
+  
+  

@@ -14,7 +14,7 @@ body {
 }
 
 .layout_padding {
-  padding-top: 90px;
+  padding-top: 45px;
   padding-bottom: 90px;
 }
 
@@ -61,12 +61,18 @@ body {
   text-align: justify;
 }
 
+
 .subheading {
   color: #252525;
   font-family: "Poppins", sans-serif;
 }
 
 .heading_container h2 {
+  color: #252525;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.heading_container2 h2 {
   color: #252525;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -127,45 +133,123 @@ body {
 
 #hero_area_about { 
   background-image: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(34, 34, 50, 0.85)),
-    url(https://admin.acceleratingscience.com/metals/wp-content/uploads/sites/4/2015/01/niton_xl2_goldd_w_male_and_scrap.jpg);
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.85)),
+url(https://www.fnscrapmetal.com/wp-content/uploads/2015/12/5-things-youre-doing-wrong-when-scrapping-metal.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
-  height: 40vh;
+  background-position: center;
+  height: 60vh;
 }
 
 #hero_area_services {
   background-image: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(34, 34, 50, 0.85)),
-    url(https://media.licdn.com/dms/image/D4E12AQHMp6p_lpcROQ/article-cover_image-shrink_720_1280/0/1697796199489?e=2147483647&v=beta&t=P4Eqwpcd8-RXuQyaQk7KXw4mgSdgWcTgB8zGkwwqaIM);
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.85)),
+url(https://lirp.cdn-website.com/fcd67b35980d433594c303ba02c86372/dms3rep/multi/opt/57891a5b-8961-46aa-a177-52b8c51417db-1920w.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  height: 60vh;
+}
+#hero_area_services_car {
+  background-image: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.85)),
+    url(https://d2m3nfprmhqjvd.cloudfront.net/blog/20220228134614/Car-Scrapping-Policy-Scrapyard.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  height: 40vh;
+  height: 60vh;
+}
+#hero_area_services_plastic {
+  background-image: linear-gradient(180deg,
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.85)),
+    url(https://weima.com/wp-content/uploads/2020/12/Post-Consumer-Plastik-Abfall.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  height: 60vh;
+}
+#hero_area_services_pvc {
+  background-image: linear-gradient(180deg,
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.85)),
+    url(https://5.imimg.com/data5/SELLER/Default/2023/1/PA/MT/BZ/160646421/rigid-pvc-pipe-scrap-1000x1000.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 60vh;
+ 
+}
+#hero_area_services_ubc {
+  background-image: linear-gradient(180deg,
+      rgba(249, 249, 249, 0.6),
+      rgba(193, 193, 193, 0.85)),
+    url(https://www.iom3.org/static/eccd9cdf-166c-4931-b9c01c02bad35976/800x533_highestperformance__4a7c7e45a350/cans-for-website.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 60vh;
+  background-size: cover;
+}
+#hero_area_services_oldtyre {
+  background-image: linear-gradient(180deg,
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.85)),
+    url(https://5.imimg.com/data5/SELLER/Default/2022/12/GP/TP/FY/149847332/old-tyre-scrap.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  height: 60vh;
+}
+#hero_area_services_paper {
+  background-image: linear-gradient(180deg,
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.85)),
+    url(https://www.scrapwalla.com/img/scrap-images/old-paper-scrap.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 60vh;
 }
 
+#hero_area_services_metal{
+  background-image: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.85)),
+    url(https://glescrap.com/wp-content/uploads/2022/08/Best-Scrap-Metal-Tools-From-GLE-Scrap.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 60vh;
+}
+#hero_area_services_aluminium{
+  background-image: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.85)),
+    url(/images/aluminiumwaste.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 60vh;
+}
 #hero_area_contact {
   background-image: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(34, 34, 50, 0.85)),
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.85)),
     url(https://lippertent.com/wp-content/uploads/2021/04/1563546315_80d80095-8609-4312-814d-278a64c912ba.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  height: 40vh;
-}
-
-
-.header_section {
-  overflow-x: hidden;
+  height: 60vh;
 }
 
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  background-color: #fcfeff;
 }
 
 .header_section .nav_container {
@@ -187,6 +271,7 @@ body {
   /*box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125)*/
 }
 
+
 .accordion-button::after {
   background-image: url(https://cdn0.iconfinder.com/data/icons/phosphor-thin-vol-4/256/plus-thin-1024.png);
 }
@@ -194,15 +279,12 @@ body {
 .accordion-button:not(.collapsed)::after {
   background-image: url(https://cdn0.iconfinder.com/data/icons/phosphor-thin-vol-3/256/minus-thin-1024.png);
   transform: none;
+
 }
 
 .header_section .user_option a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #ffffff;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -214,10 +296,11 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 15px;
-  color: white;
+  color: #060606;
   text-align: center;
   text-transform: uppercase;
   margin: 0.5rem;
+  font-weight: 500;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
@@ -239,7 +322,6 @@ a:focus {
 .btn,
 .btn:focus {
   outline: none !important;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -260,22 +342,19 @@ a:focus {
 
 .navbar-brand {
   margin-right: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .navbar-brand img {
-  width: 100px;
+  width: 171px;
 }
 
 .custom_nav-container {
   z-index: 99999;
   padding: 0;
   height: 100px;
+  background-color: #ffffff;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -323,6 +402,9 @@ a:focus {
   height: 18rem;
   transition: all 0.3s;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-body h5{
+  color: #060606;
 }
 
 .card:hover {
@@ -390,7 +472,7 @@ a:focus {
 .detail-box {
   text-align: left;
   margin-right: auto;
-  margin-top: 6rem;
+  margin-top: -7rem;
   margin-left: 7%;
 }
 
@@ -399,7 +481,7 @@ a:focus {
 }
 
 #about_section_box {
-  padding-top: 90px;
+  padding-top: 35px;
 }
 
 .slider_section .detail-box h1 {
@@ -658,6 +740,9 @@ a:focus {
   display: block;
 }
 
+#about_sec{
+  padding-top: 70px;
+}
 .about_section .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -701,6 +786,7 @@ a:focus {
 .missiontext {
   margin-top: 17px;
   text-align: justify;
+  color: #060606;
 }
 
 #visiontext {
@@ -1118,7 +1204,7 @@ a:focus {
 }
 
 #missionSection {
-  background-color: #c4ccc6;
+  background-color: #f6f6f6;
   padding-top: 0px;
   padding-bottom: 50px;
 }
@@ -1170,6 +1256,7 @@ a:focus {
   margin-top: 15px;
   text-transform: uppercase;
   font-size: 15px;
+  /* margin-left: 10rem; */
 }
 
 .info_section .info_form form button:hover {
@@ -1202,11 +1289,12 @@ a:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #fdfeff;
+  background-color: #fdfdfd;
+  
 }
 
 .footer_section p {
-  color: #171717;
+  color: #0f1521;
   margin: 0;
   padding: 25px 0 20px 0;
   margin: 0 auto;
@@ -1268,12 +1356,18 @@ a:focus {
   transform: rotate(-45deg) translate(7px, -10px);
 }
 
+
+
 /*new slider*/
+
+
+
 .carousel-container {
   width: fit-content;
   overflow: hidden;
   z-index: 999;
   position: relative;
+  
 }
 
 .carousel {
@@ -1289,7 +1383,7 @@ a:focus {
 
 .carousel-item {
   min-width: 100%;
-  height: 120vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1298,35 +1392,36 @@ a:focus {
   user-select: none;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   /* padding-top: 70px; */
 }
 
 #carousel2 {
   background-image: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(34, 34, 50, 0.85)),
+      rgba(34, 34, 50, 0.85),
+      rgba(255, 255, 255, 0.4)),
     url(https://katanamrp.com/wp-content/uploads/2023/03/shutterstock_621375611-scaled.jpg);
 }
 
 #carousel4 {
   background-image: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(34, 34, 50, 0.85)),
-    url(https://ibmd.tatasteel.com/wp-content/uploads/2023/04/DSC_2715-scaled.jpg);
+  rgba(34, 34, 50, 0.85),
+  rgba(255, 255, 255, 0.4)),
+url(https://ibmd.tatasteel.com/wp-content/uploads/2023/04/DSC_2715-scaled.jpg);
 }
 
 #carousel1 {
   background-image: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(34, 34, 50, 0.85)),
-    url(https://images.pexels.com/photos/2625896/pexels-photo-2625896.jpeg?cs=srgb&dl=pexels-pamelamariephoto-2625896.jpg&fm=jpg);
+  rgba(34, 34, 50, 0.85),
+  rgba(255, 255, 255, 0.4)),
+url(https://images.pexels.com/photos/2625896/pexels-photo-2625896.jpeg?cs=srgb&dl=pexels-pamelamariephoto-2625896.jpg&fm=jpg);
 }
 
 #carousel3 {
   background-image: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(34, 34, 50, 0.85)),
-    url(https://taronisofbirmingham.co.uk/wp-content/uploads/2023/08/scrapping-your-car.png);
+  rgba(34, 34, 50, 0.85),
+  rgba(255, 255, 255, 0.4)),
+url(https://taronisofbirmingham.co.uk/wp-content/uploads/2023/08/scrapping-your-car.png);
 }
 
 .carousel-control {
@@ -1341,7 +1436,7 @@ a:focus {
   z-index: 1000;
   font-size: 24px;
   border-radius: 50%;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -1366,5 +1461,274 @@ a:focus {
 .carousel-control:active {
   transform: translateY(-50%) scale(1.02);
 }
+
+/* dropdown  */
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 210px;
+  position: absolute;
+  z-index: 999;
+  border-radius: 15px;
+  margin-left: -3rem;
+  display: none;
+}
+
+ul.dropdown {
+  background: #fff;
+}
+
+ul li ul.dropdown li {
+  margin-top: 15px;
+  margin-left: -32px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+ul li ul.dropdown li a {
+  color: black;
+}
+
+ul li ul.dropdown li a:hover {
+  color: #24d278;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+
+/*services, home page */
+
+
+.text-center{
+  color: #252525; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.services-section {
+  background-color: #f4f4f4;
+}
+
+.service-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-wrapper {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  border-bottom: 3px solid #16a43c;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+
+.service-card:hover .card-img {
+  transform: scale(1.1);
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0, 123, 255, 0.5), rgba(0, 123, 255, 0.2));
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.service-card:hover .img-overlay {
+  opacity: 1;
+}
+
+.card-body {
+  padding: 20px;
+}
+.card-body p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+}
+
+
+
+
+/* text on image */
+
+.textpvc h2{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+  color: green;
+  margin-top: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* Privacy policy page */
+
+
+.heading_1 h2{
+  font-weight: 600 ;
+  padding-top: 20px;
+ padding-bottom: 20px;
+  font-size: 2.3rem;
+}
+.subheading_1 h3{
+  font-weight: 600;
+ padding-bottom: 20px;
+ padding-top: 10px;
+}
+.subheading_2 h4{
+   font-weight: 600;
+ padding-bottom: 20px;
+ padding-top: 10px;
+
+}
+.subheading_1 h4{
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  
+}
+.subheading_2 h3{
+  font-weight: 600;
+ padding-bottom: 20px;
+ padding-top: 10px;
+
+}
+.subheading_1 p{
+  line-height: 1.8rem;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+.subheading_2 p{
+  line-height: 1.8rem;
+  font-size: 17px;
+}
+.subheading_3 p{
+  line-height: 1.8rem;
+  font-size: 17px;
+}
+.list ul{
+  font-size: 17px;
+  margin-top: -23px;
+}
+.list ul li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.list ul li p{
+ line-height: 1.8rem;
+}
+.list ul li a{
+  text-decoration: underline;
+  
+}
+.list ul li a:hover{
+  text-decoration: none;
+  color: #007bff;
+}
+
+#para_privacypolicy{
+  line-height: 1.8rem; 
+  font-size: 17px; 
+  margin-top: -20px;
+}
+.subheading_1 ul li{
+  padding-bottom: 10px;
+}
+.subheading_2 ul li{
+  font-size: 17px; 
+  padding-bottom: 10px;
+}
+.subheading_2 ul li a{
+  text-decoration: underline;
+}
+.subheading_2 ul li a:hover{
+  text-decoration: none;
+  color: #007bff;
+}
+
+ .links_privacy a{
+  color: #ffffff;
+
+}
+ .links_privacy a:hover{
+  color: #ffffff;
+}
+ .links_terms a{
+  color: #ffffff;
+}
+ .links_terms a:hover{
+  color: #ffffff;
+}
+.links_privacy{
+  margin-bottom: 10px;
+}
+.privacy_terms h5{
+  margin-left: 3rem;
+}
+.links_privacy{
+  margin-left: 3rem;
+}
+.links_terms{
+  margin-left: 3rem;
+}
+
+/* .privacy_terms p a{
+    padding: 5px;
+} */
+.privacy_terms p a:hover{
+ color: #007bff;
+}
+#anchortag{
+  border-left: 1px solid ;
+  border-right: 1px solid ;
+  padding: 0 10px 0 10px;
+  margin: 0 8px 0 8px;
+}
+#anchortag2{
+  padding: 0 10px 0 10px;
+  margin: 0 8px 0 8px;
+}
+
 
 /*# sourceMappingURL=style.css.map */

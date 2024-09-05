@@ -8,65 +8,92 @@
   }
 }
 
-@media (max-width: 992px) {
-  #navbarSupportedContent {
-    opacity: 1;
-    transform: none;
+
+@media (max-width: 991px) {
+  .custom_nav-container .navbar-collapse {
+    background-color: #ffffff; 
+    position: absolute;
+    top: 100px; 
+    left: 0;
+    width: 100%;
+    z-index: 99998;
+    padding: 10px;
+    display: none;
   }
 
-  .sub_page .hero_area::after {
-    display: none;
+  .custom_nav-container .navbar-collapse.show {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+    border-bottom: 1px solid #ddd; 
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: #060606; 
+    padding: 10px;
+  }
+
+  .navbar-nav .dropdown {
+    padding-left: 15px;
   }
 
   .navbar-toggler {
-    padding: 0.25rem 0;
-  
-  }
-  
-  .slider_section .play_btn {
-    top: 20%;
-    right: 30%;
-  }
-
-  .header_section .user_option {
-    display: none;
+    border: none;
+    outline: none;
+    margin-left: 7rem;
   }
 
   .custom_menu-btn {
     display: none;
   }
-
-  .navbar-nav {
-    align-items: center;
+  #navbarSupportedContent {
+    margin-left: 0;
   }
 
-  .custom_nav-container .navbar-toggler {
-    margin-left: auto;
+  /* hide dropdown for mobile */
+  ul li:hover ul.dropdown {
+    display: none;
   }
-
-  .custom_nav-container {
-    padding: 15px 0;
-    height: auto;
+  .card-body{
+    padding: 5px;
   }
-
-  .brand_section {
-    text-align: center;
-  }
+ 
+  
 }
+
 
 @media (max-width: 768px) {
   .hero_area {
-    height: 100vh;
+    height: 70vh;
   }
-  .carousel-item{
-    height: 68rem;
-  } 
-  .hero_area::after {
-    /* background-image: none;
-    background-color: #1fd778;
-    width: 100%;
-    height: 450px; */
-  }
+  #about_sec {
+    padding-top: 0;
+}
+.card{
+  height: auto;
+}
+
+.privacy_terms h5{
+  margin-left: 0;
+}
+.links_privacy{
+  margin-left: 0;
+}
+.links_terms{
+  margin-left: 0;
+}
+.privacy_terms{
+  margin-bottom: 10px;
+}
+
+
   .sub_page .hero_area{
     height: 50vh;
   }
@@ -74,7 +101,7 @@
   margin-top: 5rem;
 }
 .aluminium2_heading{
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 .fourcard {
   margin-top: -40px; 
@@ -85,15 +112,71 @@
   .slider_section {
     text-align: center;
   }
-
-  .slider_section .detail-box {
-    /* margin-bottom: 45px; */
-    margin-top: 85%;
+  .carousel-item{
+    height: 67vh;
+    margin-top: 7rem;
   }
+  #img-about-home{
+    margin-top: 2rem;
+  }
+  #heading-home{
+    margin-top: 3rem;
+  }
+
+
 
   .slider_section .img-container {
     justify-content: center;
   }
+#hero_area_about {
+  height:40vh;
+}
+#hero_area_services{
+  height: 40vh;
+}
+#hero_area_contact{
+  height: 40vh;
+}
+#hero_area_services_aluminium{
+  height: 40vh;
+}
+#hero_area_services_car{
+  height: 40vh;
+}
+#hero_area_services_metal{
+  height: 40vh;
+}
+#hero_area_services_pvc{
+  height: 40vh;
+}
+#hero_area_services_ubc{
+  height: 40vh;
+}
+#hero_area_services_oldtyre{
+  height: 40vh;
+}
+#hero_area_services_paper{
+  height: 40vh;
+}
+#hero_area_services_plastic{
+  height: 40vh;
+}
+.layout_padding{
+  padding-top: 0;
+}
+#section-contact{
+
+padding-top: 50px;
+
+}
+#contact_sec{
+  padding-top: 50px;
+}
+#services-sec{
+  padding-top: 50px;
+
+}
+
 
   .slider_section .play_btn {
     top: initial;
@@ -109,9 +192,7 @@
     display: none;
   }
 
-  .slider_section {
-    padding-top: 35px;
-  }
+ 
 
   .slider_section .detail-box h1 span {
     font-size: 4rem;
@@ -129,11 +210,44 @@
   .slider_section .carousel-indicators {
     bottom: 25px;
   }
-
+.alldetails{
+  margin-top: 2rem;
+}
+.aluminium_para{
+  margin-top: 2rem;
+  text-align: justify;
+}
   .slider_section .carousel-indicators li {
     background-color: #fefefe;
   }
-
+  #hero_area_about{
+    background-attachment:scroll ;
+  }
+  .textpvc h2 {
+    font-size: 2.7rem;
+    margin-top: 3rem;
+  }
+  #hero_area_services{
+    background-attachment:scroll ;
+  }
+  #hero_area_services_metal{
+    background-attachment:scroll ;
+  }
+  #hero_area_services_aluminium{
+    background-attachment:scroll ;
+  }
+  #hero_area_services_car{
+    background-attachment:scroll ;
+  }
+  #hero_area_services_paper{
+    background-attachment:scroll ;
+  }
+  #hero_area_services_ubc{
+    background-attachment:scroll ;
+  }
+  #hero_area_services_pvc{
+    background-attachment:scroll ;
+  }
   .slider_section .number_box {
     display: none;
   }
@@ -243,3 +357,9 @@
     max-width: 1170px;
   }
 }
+
+
+
+
+
+
